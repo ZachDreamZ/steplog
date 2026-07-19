@@ -13,7 +13,7 @@
   <a href="https://github.com/ZachDreamZ/steplog/actions/workflows/ci.yml"><img src="https://github.com/ZachDreamZ/steplog/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI"></a>
   <a href="https://github.com/ZachDreamZ/steplog/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/python-3.9%2B-3776AB.svg" alt="Python 3.9+">
-  <img src="https://img.shields.io/badge/tests-16%20passing-brightgreen.svg" alt="16 tests passing">
+  <img src="https://img.shields.io/badge/tests-28%20passing-brightgreen.svg" alt="28 tests passing">
   <img src="https://img.shields.io/badge/dependencies-zero-success.svg" alt="Zero dependencies">
 </p>
 
@@ -178,7 +178,7 @@ python -m steplog
 
 ```bash
 pip install -e ".[dev]"
-pytest          # 16 tests
+pytest          # 28 tests
 pytest -v       # verbose
 ```
 
