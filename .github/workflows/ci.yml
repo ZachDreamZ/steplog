@@ -25,3 +25,9 @@ jobs:
       - run: pip install -e ".[dev]"
 
       - run: pytest -v --tb=short
+
+  ci-pass:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - run: echo "All matrix jobs passed"
